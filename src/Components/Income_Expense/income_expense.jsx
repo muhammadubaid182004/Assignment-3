@@ -33,8 +33,8 @@ function IncomeExpense(){
     
     
     useEffect(() => {
-        console.log("Income:", income);
-        console.log("Expense:", expense);
+        // console.log("Income:", income);
+        // console.log("Expense:", expense);
 
         
         setRemainingAmount(income - expense);    

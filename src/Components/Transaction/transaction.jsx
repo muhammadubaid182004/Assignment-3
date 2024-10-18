@@ -34,12 +34,12 @@ function Transaction(){
       setExpense(!income)
       setValue(`${type}`, value)
       setOptionType(value)
-      console.log(value);
+      // console.log(value);
       // console.log(optionType);
     }
 
     const addTransaction = (data) => {
-      console.log(data);
+      // console.log(data);
       setData(data)
       setAmount([optionType, data.amount])
       // console.log(optionType);
